@@ -10,7 +10,7 @@
 
 ## 项目截图
 
-![image-20200210011325743](/Users/dengzhixin/Desktop/桌面/项目/邓志鑫-17软件工程1班-15625653671-Dev Topics微信小程序/Dev Topics/readme/image-20200210011325743.png)
+![image-20200210011325743](../readme/image-20200210011325743.png)
 
 ![image-20200210011502825](/Users/dengzhixin/Desktop/桌面/项目/邓志鑫-17软件工程1班-15625653671-Dev Topics微信小程序/Dev Topics/readme/image-20200210011502825.png)![image-20200210011350472](/Users/dengzhixin/Desktop/桌面/项目/邓志鑫-17软件工程1班-15625653671-Dev Topics微信小程序/Dev Topics/readme/image-20200210011350472.png)
 
