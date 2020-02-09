@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class='pageTitle' >今日精选</view>
+<view class="container">
+  <view class='article'  wx:for="{{devTopicsData}}" bindtap="intoDetailPage" data-src="{{item.ArticleSourceUrl}}" data-curtitle="{{item.ArticleTitle}}" data-author="{{item.ArticleAuthor}}" data-articleId='{{item.ArticleId}}'>
+    
+    <view class='articleTitle'>
+        {{item.ArticleTitle}}
+    </view>
+      
+    
+    
+    <view class='articleCreateDateTime'>
+        {{item.CreateDateTime}} /  {{item.ArticleAuthor}}
+    </view>
+    
+  </view>
+</view>

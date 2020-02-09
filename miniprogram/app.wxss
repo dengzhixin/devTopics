@@ -1,0 +1,40 @@
+/**app.wxss**/
+.pageTitle{
+  margin-left: 20rpx;
+  margin-bottom: 30rpx;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+  
+} 
+.article{
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-bottom: 40rpx;
+  border-left: 3px solid #666;
+  padding: 10px 14px;
+}
+
+.pageTitle{
+  font-size: 20pt;
+  margin: 10px 15px;
+  color:#888888
+}
+.articleInfo{
+  display: flex;
+  flex-direction: row;
+}
+.articleTitle{
+  font-size: 14pt;
+ 
+  color:#353535
+}
+.articleCreateDateTime{
+  font-size: 11pt;
+  color:#b2b2b2;
+}

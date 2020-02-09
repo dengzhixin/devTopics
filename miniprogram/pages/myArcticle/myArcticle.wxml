@@ -1,0 +1,25 @@
+<!--miniprogram/pages/myArcticle/myArcticle.wxml-->
+<view class='pageTitle'>我的收藏</view>
+<view class="container" style='align-items:{{isNull==true?"center":"flex-start"}};' wx:if="{{!isNull}}">
+ 
+    <view class='article' wx:for="{{devMyTopicsData}}" bindtap="intoDetailPage" data-src="{{item.ArticleSourceUrl}}" data-curtitle="{{item.ArticleTitle}}" data-author="{{item.ArticleAuthor}}" data-articleId='{{item._id}}'>
+
+      <view class='articleTitle'>
+        {{item.ArticleTitle}}
+      </view>
+
+
+
+      <view class='articleCreateDateTime'>
+        {{item.CreateDateTime}} / {{item.ArticleAuthor}}
+      </view>
+
+    </view>
+ 
+  
+</view>
+<view class="containerNull"  wx:if="{{isNull}}">
+    <image class='null-image' src='../../images/nothing.png'></image>
+    <view class='nullTit'>找不到收藏夹</view>
+    <view class='nullTit-en'>CAN NOT FIND FAVORITES</view>
+</view>

@@ -1,0 +1,25 @@
+/* miniprogram/pages/myArcticle/myArcticle.wxss */
+page{
+  height: 100%;
+  background-color: #f6f6f6
+}
+.null-image{
+  width: 140rpx;
+  height: 140rpx;
+}
+.containerNull{
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nullTit{
+  font-size: 12pt;
+  color: gray
+}
+.nullTit-en{
+  font-size: 8pt;
+  color: gray
+}

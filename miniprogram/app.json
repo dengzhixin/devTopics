@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/myArcticle/myArcticle",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "Dev Topics",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#d81e06",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/images/arctic.png",
+        "selectedIconPath": "/images/arctic-active.png"
+      },
+      {
+        "pagePath": "pages/myArcticle/myArcticle",
+        "iconPath": "/images/myarctic.png",
+        "selectedIconPath": "/images/myarctic-active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

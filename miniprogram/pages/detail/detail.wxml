@@ -1,0 +1,9 @@
+<!--miniprogram/pages/detail/detail.wxml-->
+<view class='detailContainer'>
+  <view class='detail-Tittle'>{{curtitle}}</view>
+  <view class="starts">
+    <image class='start' src='{{startImg}}' bindtap='toStart'></image>
+  </view>
+  <rich-text nodes="{{richText}}"></rich-text>
+
+</view>

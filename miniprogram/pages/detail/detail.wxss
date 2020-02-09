@@ -1,0 +1,27 @@
+/* miniprogram/pages/detail/detail.wxss */
+page,rich-text{
+  background-color: #f6f6f6
+}
+
+.detail-Tittle{
+  font-size: 18pt;
+  color: black;
+  margin-top: 10px;
+}
+p{
+  color: red;
+}
+.detailContainer{
+  padding: 10px 10px;
+}
+.starts{
+  display: flex;
+  justify-content:flex-end;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+.start{
+  width: 26px;
+  height: 26px;
+  
+}
