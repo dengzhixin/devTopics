@@ -22,7 +22,7 @@
 
 1.  需要在微信小程序-详情-项目配置添加request合法域名，否则request无法正常访问![image-20200210010634971](https://github.com/dengzhixin/devTopics/blob/master/readme/i1.png?raw=true)
 
-2. 通过 <rich-text></rich-text>标签的 nodes属性可以解析富文本
+2. 通过 ```<rich-text></rich-text>```标签的 nodes属性可以解析富文本
 
    
 
